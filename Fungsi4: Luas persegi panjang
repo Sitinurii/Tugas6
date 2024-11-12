@@ -1,0 +1,10 @@
+def luaspersegipanjang (panjang, luas):
+    return panjang * luas
+def keliling (panjang,lebar):
+    return 2* (panjang + lebar)
+a = int(input("masukkan panjang: "))
+b = int(input("masukkan lebar: "))
+hasil_luas = luaspersegipanjang (a,b)
+hasil_keliling = keliling(a, b)
+print ("hasil luas adalah:",hasil_luas)
+print ("hasil keliling adalah:",hasil_keliling)
